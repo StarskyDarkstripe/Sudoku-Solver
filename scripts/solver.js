@@ -4,7 +4,7 @@ export function insertValues() {
   const inputs = document.querySelectorAll('input')
   
   inputs.forEach((input) => {
-    in (input.value) {
+    if (input.value) {
       board.push(parseInt(input.value))
       input.classList.add('input-el')
     } else {
