@@ -1,4 +1,4 @@
-export function drawBoard() {
+function drawBoard() {
   const sudokuBoard = document.querySelector("#puzzle");
   const squares = 81;
   
