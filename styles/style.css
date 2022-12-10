@@ -22,3 +22,7 @@
   height: 60px;
   border: 1px #808080 solid;
 }
+
+.odd-section {
+  background: #d3d3d3;
+}
