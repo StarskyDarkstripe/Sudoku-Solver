@@ -45,7 +45,7 @@ const getChoices = (board, index) => {
   let choices = []
   for (let value = 1; value <= 9; value++) {
     if (acceptable(board, index, value)) {
-      coices.push(value)
+      choices.push(value)
     }
   }
   return choices
